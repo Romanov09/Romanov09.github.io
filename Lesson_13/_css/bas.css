@@ -1,0 +1,79 @@
+.content {
+	font-family: arial, serif;
+	width: 570px;
+	height: 570px;
+	background-color: #01b3b336;
+}
+
+
+.form {
+	border: 1px solid #cfdede;
+	display: block;
+	margin: 100px 130px 130px 137px;
+	width: 320px;
+	height: 370px;
+	background-color: #fafdfd;
+	text-align: center;
+}
+
+.icon {
+	width: 150px;
+	height: 25px;
+	display: block;
+	font-size: 12px;
+	background-color: #01b3b3;
+	text-transform: uppercase;
+	color: #fafdfd;
+	padding-top: 3px;
+	margin: -3px 40px 0px 17px; 
+}
+
+::placeholder{
+	font-size: 12px;
+	text-align: left;
+	color: #00ff5120;
+}
+
+.form_0 {
+	margin: 12px 30px 0 15px;
+	display: block;
+	text-align: center;
+	width: 262px;
+	height: 32px;
+}
+
+.form_1 {
+	display: block;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: left;
+	margin: 31px 0px 0px 17px;
+	width: 45px;
+	height: 12px;
+}
+
+.form_2 {
+	font-size: 12px;
+	font-weight: 600;
+	text-align: left;
+	margin: 14px 5px 0px 17px;
+}
+
+.form_3 {
+	font-size: 12px;
+	font-weight: 600;
+	text-align: left;
+	margin: 15px 5px 0px 17px;
+}
+
+.bun {
+	color: #ffffff;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 1px solid #cfdede;
+	background-color: #01c4c4;
+	margin-top: 33px;
+	text-align: center;
+	width: 262px;
+	height: 45px;
+}
