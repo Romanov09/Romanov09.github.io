@@ -1,8 +1,11 @@
 # Кабиров Роман
 My homeworks
 
-<code>[13 lesson](адрес "Romanov09.github.io/tree/main/Lesson_13") - 13 lesson
+<code>[13 lesson](Romanov09.github.io/Lesson_13/ "13")
 </code>
 
-<code>[14 lesson](адрес "Romanov09.github.io/tree/main/Lesson_14") - 14 lesson
+<code>[14 lesson](Romanov09.github.io/Lesson_14/ "14")
+</code>
+
+<code>[15 lesson](Romanov09.github.io/Lesson_15/ "15")
 </code>
