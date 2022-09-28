@@ -13,3 +13,5 @@ My homeworks
 [16 lesson](https://romanov09.github.io/Lesson_16/ "16") - создание первого сайта ч.2
 
 [17 lesson](https://romanov09.github.io/Lesson_17/ "17") - Работа с псевдоклассами и псевдоэлементами
+
+[18 lesson](https://romanov09.github.io/Lesson_18/ "18") - создание первого сайта ч.3
