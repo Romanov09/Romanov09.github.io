@@ -15,3 +15,5 @@ My homeworks
 [17 lesson](https://romanov09.github.io/Lesson_17/ "17") - Работа с псевдоклассами и псевдоэлементами
 
 [18 lesson](https://romanov09.github.io/Lesson_18/ "18") - создание первого сайта ч.3
+
+[19 lesson](https://romanov09.github.io/Lesson_19/ "19") - практика со слайдерами
