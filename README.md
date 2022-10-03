@@ -18,4 +18,4 @@ My works
 
 [19 lesson](https://romanov09.github.io/Lesson_19/ "19") - практика со слайдерами
 
-[Fix slider](https://romanov09.github.io/Fix Slider/ "Fix slider") - решение проблемы с высотой слайдера
+[Fix slider](https://romanov09.github.io/Fix%20Slider/ "Fix slider") - решение проблемы с высотой слайдера
