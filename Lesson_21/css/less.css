@@ -1,0 +1,21 @@
+body container {
+  align-content: middle;
+}
+body .modal-dialog.modal-content {
+  padding: 0;
+}
+body main carousel-item {
+  height: 800px;
+  width: 100%;
+}
+body main img {
+  height: 800px;
+  background-size: cover;
+}
+body main .xc {
+  transition: 0.4s;
+}
+body main .xc:hover {
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+  scale: 1.1;
+}
