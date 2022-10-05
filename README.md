@@ -21,3 +21,5 @@ My works
 [Fix slider](https://romanov09.github.io/Fix%20Slider/ "Fix slider") - решение проблемы с высотой слайдера
 
 [20 lesson](https://romanov09.github.io/Lesson_20/ "20") - создание первого сайта ч.4 Сделали адаптивную карусель
+
+[21 lesson](https://romanov09.github.io/Lesson_21/ "21") - практика с модальным окном
