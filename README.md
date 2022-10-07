@@ -1,7 +1,6 @@
 
-
 # Kabirov Roman
-My works
+My works GLO Academy
 
 
 [13 lesson](https://romanov09.github.io/Lesson_13/ "13")
