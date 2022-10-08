@@ -4,7 +4,7 @@ html {
 }
 .back-ground-head {
   display: block;
-  background: url(/back.jpg) center;
+  background: url(../back.jpg) center;
   width: 100%;
   height: 1200px;
   z-index: -1;
