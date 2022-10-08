@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Header</title>
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<!-- CSS only -->
+	<link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+	<div class="back-ground-head">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 offset-md-3">
+					<div class="word-form">
+						<h2 class="word-form-h2">Ответы на вопросы</h2>
+						<p class="word-form-head">Которые нам задают чаще всего</p>
+					</div>
+					<div class="accordion" id="accordionExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header redact-text-accordion active bred" id="headingOne">
+								<button class="accordion-button redact-text-accordion" type="button"
+									data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+									aria-controls="collapseOne">
+									Сколько времени может занять уборка 3-х комнатной квартиры?
+								</button>
+							</h2>
+							<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body accordion-text">
+									Длительность уборки <strong>зависит</strong> от вида клининга и площади
+									трехкомнатной квартиры.
+									Поддерживающая уборка займет примерно 3 часа. Генеральная и уборка после ремонта
+									будет длится <strong>примерно 6-8 часов</strong>.
+
+									<p><br>На время уборки также влияте степень загрязненности квартиры, количество
+										сотрудников
+										их квалификация и инвентарь.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header redact-text-accordion" id="headingTwo">
+								<button class="accordion-button collapsed redact-text-accordion" type="button"
+									data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+									aria-controls="collapseTwo">
+									Сколько времени может занять уборка 2-х комнатной квартиры?
+								</button>
+							</h2>
+							<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body accordion-text">
+									В среднем на ежедневную уборку двухкомнатной квартиры клинеры компании MasterHouse
+									тратят <strong>два – три часа</strong>.
+									<p><br>За это время мы успевает вытереть пыль со
+										всех поверхностей,
+										вымыть полы и вычистить ковры, продезинфицировать сантехнику, вынести бытовой
+										мусор
+										и отполировать зеркала.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header redact-text-accordion" id="headingThree">
+								<button class="accordion-button collapsed redact-text-accordion" type="button"
+									data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+									aria-controls="collapseThree">
+									Сколько времени может занять уборка 1-х комнатной квартиры?
+								</button>
+							</h2>
+							<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body accordion-text">
+									Уборка квартиры занимает от <strong>2 - до 6 часов</strong>. Сроки уборки квартиры
+									напрямую зависят
+									от площади и загрязненности помещения.
+									<p><br>Бывают случаи, когда клиенту требуется
+										экстра
+										быстрая уборка, на такой заказ мы добавляем дополнительный персонал, чтобы
+										справиться в срок.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container main-tabs-block">
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<div class="main-tabs">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+								type="button" role="tab" aria-controls="home" aria-selected="true">log In</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+								type="button" role="tab" aria-controls="profile"
+								aria-selected="false">Regisration</button>
+						</li>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab"> home </div>
+						<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab"> profile </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="content">
+		<div class="row">
+			<div class="col-md-4 offset-md-4 co-xs-12 merg">
+				<div class="accordion" id="accordionExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingOne">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse"
+								data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Log In
+							</button>
+						</h2>
+						<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+							data-bs-parent="#accordionExample">
+							<div class="">
+								<label for="" class="form-label">login:</label>
+								<input type="text" class="form-control" id="" value="" required
+									placeholder="Create new login">
+								<div class="mb-3">
+									<label for="" class="form-label">Password:</label>
+									<input type="password" class="form-control" name="" id=""
+										placeholder="Create new password">
+								</div>
+								<button class="btn-primary btn form-btn button-class mb-3 flex offset-4 col-md-4"
+									href="#">log
+									in</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- jQuery 3.6 -->
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>
