@@ -28,3 +28,5 @@ My works GLO Academy
 [Test](https://romanov09.github.io/Test/ "Accordion") - тест Аккордиона
 
 [RecoverForm](https://romanov09.github.io/RecoverForm/ "RecoverForm") - тестовая форма отправки и регистрации
+
+[23 lesson](https://romanov09.github.io/Lesson_23/ "23") - создание первого сайта ч.6 Блок с прайс-листом
