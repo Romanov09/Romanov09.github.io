@@ -1,0 +1,640 @@
+/* Fonts settings*/
+@font-face {
+	font-family: 'ProximaNova_bold';
+	src: url('../fonts/ProximaNova-Regular.eot');
+	src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Regular.woff') format('woff'),
+		url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ProximaNova_reg';
+	src: url('../fonts/ProximaNova-Bold.eot');
+	src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Bold.woff') format('woff'),
+		url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+.bold () {
+	font-family: 'ProximaNova_reg', sans-serif;
+}
+
+.reg () {
+	font-family: 'ProximaNova_bold', sans-serif;
+}
+
+/* Colors */
+@btn-color: #fcb303;
+@icons-color: #46b814;
+@text: #1a1820;
+@danger: #ff0000;
+@bg-light: #f5f5f5;
+@light: #ffffff;
+@border-input: #dddddd;
+
+/* Basic settings */
+html {
+	font-size: 10px;
+}
+
+body {
+	.reg();
+}
+
+.button {
+	color: @light;
+	padding: 1rem 3rem;
+	border-radius: 8px;
+	font-size: 1.2rem;
+	background-color: @btn-color;
+	text-transform: uppercase;
+	border: none;
+	position: relative;
+	transition: 0.5s;
+	transform: translate(-100%, 0);
+	left: 100%;
+
+	&:hover {
+		background-color: @danger;
+		opacity: 0.5;
+	}
+
+	&:active {
+		background-color: @icons-color;
+		opacity: 0.5;
+		transition: none;
+		border: none;
+		border-radius: 8px;
+	}
+
+	&:focus {
+		outline: none;
+	}
+}
+
+/* Typography */
+section {
+	padding: 10rem 0;
+}
+
+.section-header {
+	margin: 2rem 0 10rem;
+	.bold();
+	font-size: 3.6rem;
+	text-align: center;
+
+	.morg-0 {
+		font-size: 3.6rem;
+	}
+
+	.morg-1 {
+		font-size: 2.4rem;
+		padding-top: 9rem;
+	}
+}
+
+
+/* main header */
+.main {
+	padding: 3rem 0;
+	background: #fff url(../img/main-bg.png) center center no-repeat;
+	background-size: cover;
+
+	&-content {
+		margin-top: 10rem;
+
+		/* Главный заголовок*/
+		h1 {
+			margin-bottom: 4rem;
+			.bold();
+			font-size: 4rem;
+			line-height: 1.45;
+			text-transform: uppercase;
+		}
+	}
+
+	/* Подзаголовок */
+	&-subtitle {
+		margin-bottom: 4rem;
+		font-size: 2.4rem;
+	}
+
+	/* Зеленый ярлык */
+	span {
+		display: inline-block;
+		padding: 3rem 5rem;
+		background-color: @icons-color;
+		border-radius: 10px;
+		font-size: 1.8rem;
+		color: @light;
+		text-align: center;
+
+		/* Цифра 300 рублей*/
+		strong {
+			font-size: 3rem;
+			.bold();
+		}
+	}
+
+	/*Оплата по факту*/
+	&-trigger {
+		display: block;
+		margin-top: 3rem;
+		font-size: 2.2rem;
+		text-transform: uppercase;
+		.bold();
+
+	}
+
+	/* Главная форма*/
+	&-form {
+		padding: 4rem 5rem;
+		text-align: center;
+		background-color: @light;
+		border-radius: 10px;
+
+		/* Заголовок формы*/
+		&-header {
+			margin-bottom: 4rem;
+			font-size: 1.8rem;
+
+			&-1 {
+				font-size: 1.8rem;
+			}
+
+			strong {
+				font-size: 1.9rem;
+			}
+		}
+
+		/* Поле для ввода */
+		&-input {
+			display: block;
+			margin: 2rem 0;
+			width: 100%;
+			border: 1px solid @border-input;
+			padding: 1.5rem;
+			border-radius: 3px;
+		}
+
+		/* Подписи к полям */
+		label {
+			position: absolute;
+			transform: translateX(-50%) translateY(-50%);
+			padding: 0.5rem;
+			background-color: @light;
+			font-size: 1.3rem;
+			z-index: 10;
+		}
+
+		/* Кнопка отправить */
+		&-btn {
+			display: block;
+			width: 100%;
+			height: 5.5rem;
+			font-size: 1.6rem;
+		}
+
+		/* Подпись под кнопкой */
+		small {
+			display: block;
+			margin-top: 1.5rem;
+		}
+	}
+}
+
+
+.header {
+	height: 7rem;
+}
+
+.wrap {
+	display: table;
+	width: 100%;
+	height: 7rem;
+
+	&-block {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+.phone-block {
+	text-align: right;
+
+	& .phone-link {
+		text-decoration: none;
+		display: inline-block;
+		.bold();
+		font-size: 2rem;
+		font-weight: bold;
+		height: 7rem;
+		line-height: 7rem;
+		color: @text;
+	}
+}
+
+.carousel-href {
+	color: #45b613;
+}
+
+.features {
+	&-block {
+		text-align: center;
+
+		h3 {
+			.bold();
+			font-size: 2rem;
+			margin-bottom: 3rem;
+		}
+
+		p {
+			font-size: 1.4rem;
+			display: inline-block;
+			width: 80%;
+		}
+	}
+
+	&-img {
+		height: 8rem;
+		margin-bottom: 3rem;
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+}
+
+/* Настройки слайдера (фикс высоты 2-ой блок) */
+.slick {
+	&-active {
+		outline: none;
+	}
+}
+
+.arrow {
+	top: 10%;
+	transform: scaleY(-50%);
+	position: absolute;
+	z-index: 99;
+	width: 2rem;
+	height: 2rem;
+	border: none;
+
+}
+
+.prev {
+	left: 0;
+	vertical-align: middle;
+	background: url(https://avatars.mds.yandex.net/i?id=e0d2a299b2074aa7669e85d56c1b3d60-4575485-images-thumbs&n=13) center no-repeat;
+	background-size: 100%;
+	opacity: 0.5;
+	transition: 0.5s;
+	cursor: pointer;
+
+	&:hover {
+		opacity: 1;
+		scale: 1.4;
+	}
+}
+
+.next {
+	right: 0;
+	vertical-align: middle;
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Green_Arrow_Right.svg/1200px-Green_Arrow_Right.svg.png) center no-repeat;
+	background-size: 100%;
+	opacity: 0.5;
+	transition: 0.5s;
+	cursor: pointer;
+
+	&:hover {
+		opacity: 1;
+		scale: 1.4;
+	}
+}
+
+.popup {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	&-content {
+		position: fixed;
+		text-align: center;
+		background-color: @light;
+		border-radius: 10px;
+		left: 50%;
+		transform: translateX(-50%);
+		top: 20%;
+		padding: 4rem 6rem;
+		width: 30%;
+	}
+
+	&-close {
+		position: absolute;
+		background: none;
+		right: -3rem;
+		top: -3rem;
+		width: 4rem;
+		transition: 0.4s;
+		text-align: center;
+		border: none;
+		font-size: 3rem;
+		color: @light;
+
+		&:active {
+			transform: rotate(90deg) scaleX(-1);
+		}
+	}
+
+
+
+	&-header {
+		font-size: 2.5rem;
+		.bold();
+
+		&-p {
+			font-size: 1.4rem;
+		}
+	}
+
+	&-form {
+		margin-top: 3rem;
+		padding: 0;
+	}
+}
+
+.header-1-p {
+	display: block;
+	text-align: center;
+	font-size: 3.6rem;
+	font-weight: 600;
+	color: white;
+	margin-top: 20px;
+
+	&-br {
+		margin-top: 35px;
+		color: white;
+		text-align: center;
+		font-size: 1.5rem;
+		margin-bottom: 50px;
+	}
+}
+
+
+.price {
+	background: @icons-color url(https://phonoteka.org/uploads/posts/2021-06/1623141139_10-phonoteka_org-p-tekstura-zelenogo-plastika-krasivo-12.jpg) center;
+
+	h1 {
+		font-size: 4rem;
+	}
+
+	&-block {
+		padding: 1rem 3rem 4rem;
+		min-height: 60rem;
+		background-color: @light;
+		box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
+		text-align: center;
+		border-radius: 10px;
+
+		h4 {
+			font-size: 1.8rem;
+			.bold();
+			padding: 3rem 0 2.5rem;
+		}
+	}
+
+	img {
+		border-radius: 2px;
+		max-width: 30rem;
+		width: 100%;
+	}
+
+	&-tag {
+		display: block;
+		font-size: 2rem;
+		margin-top: rem;
+		.bold();
+	}
+
+	&-list {
+		font-size: 1.4rem;
+		height: 14rem;
+		list-style: none;
+		padding: 0;
+		.bold();
+		font-weight: 400;
+	}
+}
+
+.cls {
+	padding: 2rem 6rem;
+	left: auto;
+	transform: translate(0, 0);
+}
+
+.fa {
+	color: #26650a;
+}
+
+.feedback {
+	background: @light url(/img/png-slider-text/bg/bg.png) center no-repeat;
+	background-size: cover;
+
+	&-prev-btn {
+		left: -4rem;
+	}
+
+	&-next-btn {
+		right: -4rem;
+	}
+
+	&-slider {
+		background-color: @bg-light;
+		border-radius: 6px;
+		box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
+		padding: 5rem 6rem;
+
+
+		&-btn {
+			position: absolute;
+			top: 50%;
+			transform: translate(0, -50%);
+			width: 4rem;
+			height: 5rem;
+			background-color: none;
+			border: none;
+			overflow: auto;
+
+			img {
+				width: 100%;
+				color: @icons-color;
+			}
+		}
+
+		p {
+			font-size: 1.4rem;
+		}
+	}
+}
+
+.main-header {
+	padding: 4rem 5rem;
+	text-align: center;
+	background-color: @light;
+	border-radius: 6px;
+
+	h2 {
+		font-size: 2, 8rem;
+		margin-bottom: 5rem;
+	}
+
+	label {
+		position: absolute;
+		transform: translateX(-50%);
+		padding: 0.5rem;
+		background-color: @light;
+		font-size: 1.3rem;
+		z-index: 10;
+	}
+
+	&-input {
+		display: block;
+		width: 100%;
+		// transform: translate(50%, 0);
+		margin: 1rem 0;
+		border: 1px solid @border-input;
+		padding: 1.5rem;
+		border-radius: 6px;
+		z-index: 10;
+	}
+
+	&-btn {
+		display: block;
+		width: 100%;
+		// left: 50%;
+		// transform: translate(110%, 0) !important;
+		height: 5.5rem;
+		font-size: 1.4rem;
+	}
+}
+
+.control-flex-p {
+	padding: 3rem;
+}
+
+.d-flex {
+	margin-top: 3rem;
+
+	img {
+		width: 50px;
+		height: 50px;
+	}
+
+	.flex-grow-1 {
+		line-height: 20px;
+
+		p {
+			font-size: 1.5rem;
+			.bold();
+		}
+
+		.div {
+			margin-top: 3rem;
+			position: relative;
+			font-style: italic;
+			font-size: 1.5rem;
+			padding: 1rem;
+			border: 1px solid @icons-color;
+
+			&::before {
+				content: '';
+				display: block;
+				position: absolute;
+				top: -1.5rem;
+				left: -0.1rem;
+				width: 2rem;
+				height: 1.5rem;
+				border: 1px solid @icons-color;
+				border-bottom: none;
+				border-top-right-radius: 100px;
+				background-color: @bg-light;
+
+			}
+		}
+	}
+}
+
+
+@media (max-width: 991px) {
+	.main {
+		background-position: top right;
+	}
+
+	.phone-block {
+		text-align: center;
+	}
+
+	.main-content {
+		margin-top: 10rem;
+	}
+
+	.main-title {
+		padding-bottom: 3rem;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 576px) {
+	.logo {
+		scale: 1.5;
+		margin-bottom: 4rem;
+	}
+
+
+	.head-row {
+		text-align: center;
+	}
+
+	.main {
+
+		&-content h1 {
+			font-size: 3rem;
+		}
+
+		&-title {
+			margin-top: 10rem;
+		}
+	}
+
+	.popup-content {
+		width: auto;
+	}
+
+	.button {
+		transform: translate(0, 0);
+		left: 0;
+		padding: 2rem 5rem;
+		font-size: 1.4rem;
+	}
+}
