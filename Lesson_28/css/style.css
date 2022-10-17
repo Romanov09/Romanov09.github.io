@@ -644,7 +644,6 @@ section {
 }
 @media (max-width: 576px) {
   .logo {
-    scale: 1.5;
     margin-bottom: 4rem;
   }
   .head-row {
