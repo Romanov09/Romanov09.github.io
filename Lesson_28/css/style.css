@@ -391,7 +391,7 @@ section {
   color: #26650a;
 }
 .feedback {
-  background: #ffffff url(/img/png-slider-text/bg/bg.png) center no-repeat;
+  background: #ffffff url(../img/png-slider-text/bg/bg.png) center no-repeat;
   background-size: cover;
 }
 .feedback-prev-btn {
