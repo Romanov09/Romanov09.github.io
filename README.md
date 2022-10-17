@@ -34,3 +34,5 @@ My works GLO Academy
 [24 lesson](https://romanov09.github.io/Lesson_24/ "24") - создание первого сайта ч.7 блок с отзывами(Пока без адаптива)
 
 [25 lesson](https://romanov09.github.io/Lesson_25/ "25") - создание первого сайта ч.8 блок с отзывами(Выполнен адаптив)
+
+[27 lesson](https://romanov09.github.io/Lesson_25/ "27") - создание первого сайта ч.9 2 блока(Адаптив)
